@@ -1,0 +1,85 @@
+/* @font-face {
+    font-family: 'Magistral';
+    src: url('Magistral Black.eot');
+    src: url('Magistral Black.eot?#iefix') format('embedded-opentype'),
+		 url('Magistral Black.svg#montserratbold') format('svg'),
+         url('Magistral Black.woff') format('woff'),
+         url('Magistral Black.ttf') format('truetype');
+    font-weight: 900;
+	font-style: normal;
+} */
+
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Light'),
+    local('Muller-Light'),
+    url("../fonts/MullerLight.otf") format("opentype");
+    font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Regular'),
+    local('Muller-Regular'),
+    url("../fonts/MullerRegular.otf") format("opentype");
+    font-weight: 400;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Bold'),
+    local('Muller-Bold'),
+    url("../fonts/MullerBold.otf") format("opentype");
+    font-weight: 700;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Medium'),
+    local('Muller-Medium'),
+    url("../fonts/MullerMedium.otf") format("opentype");
+    font-weight: 500;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Ultra Light'),
+    local('Muller-Ultra-Light'),
+    url("../fonts/MullerUltraLight.otf") format("opentype");
+    font-weight: 200;
+	font-style: normal;
+}
+
+
+ 
+
+/* @font-face {
+    font-family: 'PFBeauSansPro';
+    src: url('../fonts/PFBeauSansPro-LightItal.ttf') format('truetype');
+    src: url('Magistral Bold.eot?#iefix') format('embedded-opentype'),
+        url('Magistral Bold.svg#montserratbold') format('svg'),
+        url('Magistral Bold.woff') format('woff'),
+        url('Magistral Bold.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+} */
+/* @font-face {
+    font-family: 'PFBeauSansPro';
+    src: url('../fonts/PFBeauSansPro-ThinItal.ttf') format('truetype');
+    font-weight: 100;
+    font-style: italic;
+} */
+
+
+body,
+input,
+textarea,
+button,
+select {
+    font: 300 16px 'Muller', sans-serif, arial;
+    color: #15191E;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Muller', sans-serif, arial;
+} 

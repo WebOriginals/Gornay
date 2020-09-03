@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<html lang="ru" class="html-sth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Главная</title> 
+    <!-- <link rel="icon" href="img/favicon.png"> -->
+	
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="fonts/magistral/magistral.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/font.css"/>
+    <!-- <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.min.css" /> -->
+    <link rel="stylesheet" type="text/css" href="swiper/swiper.min.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="textfield/textfield.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-grid-float.css" />
+    <link rel="stylesheet" type="text/css" href="jqueryUI/jquery-ui.css" />
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.min.css" />
+
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/media.css"/>
+    <link rel="stylesheet" type="text/css" href="css/dg.css"/>
+    <!--[if lte IE 9]>
+        <script src="js/ie9/html5shiv.min.js"></script>
+        <script src="js/ie9/respond.min.js"></script>
+    <![endif]-->   
+</head>
+<body> 
+
+<div class="abc" style="background-color: #3300aa;background-color: #ffe4c4; height: 30px;"></div>
+
+
+<div class="sm-head">
+    <div class="header">
+        <div class="header__container">
+            <div class="header__row">
+                <div class="header__col-1">
+                    <div class="header__logo-wrap">
+                        <a class="header__logo" href="/">
+                            <img class="header__logo-img" src="img/color-logo.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="header__col-2">   
+                    <div class="header__links-row">
+                        <!-- <div class="header__link-wrap">
+                            <a class="header__link" href="">Базы отдыха</a>
+                        </div> -->
+                            <div class="header__link-wrap">
+                                <div class="accrd">
+                                    <div class="accrd__top">
+                                        <a class="header__link accrd__top-link" href="">Базы отдыха</a>
+                                    </div>
+                                    <div class="accrd__bottom">
+                                        <div class="accrd__eff-wrap">
+                                            <div class="accrd__links-bl">
+                                                <div class="accrd__item">
+                                                    <a class="accrd__link" href="">Турбаза «Горная»</a>
+                                                </div>
+                                                <div class="accrd__item">
+                                                    <a class="accrd__link" href="">Туркомплекс «Горная деревня»</a>
+                                                </div>
+                                                <div class="accrd__item">
+                                                    <a class="accrd__link" href="">Туркомплекс «Горное настроение»</a>
+                                                </div>
+                                                <div class="accrd__item">
+                                                    <a class="accrd__link" href="">Туркомплекс «Горное вдохновение»</a>
+                                                </div>
+                                                <div class="accrd__item">
+                                                    <a class="accrd__link active" href="">Гостевой дом Мезмай</a>
+                                                </div>
+                                                <div class="accrd__item">
+                                                    <a class="accrd__link" href="">Туркомплекс «Горное наслаждение»</a>
+                                                </div>
+                                                <div class="accrd__item">
+                                                    <a class="accrd__link" href="">Турбаза «Лаго-Наки»</a>
+                                                </div>
+                                                <div class="accrd__item">
+                                                    <a class="accrd__link" href="">Термальный источник «Водная Ривьера»</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        <!-- <div class="header__link-wrap">
+                            <a class="header__link" href="">Базы отдыха</a>
+                        </div> -->
+                        <div class="header__link-wrap">
+                            <a class="header__link" href="">Цены</a>
+                        </div>
+                        <div class="header__link-wrap">
+                            <a class="header__link active" href="">Услуги</a>
+                        </div>
+                        <div class="header__link-wrap">
+                            <a class="header__link" href="">Достопримечательности</a>
+                        </div>
+                        <div class="header__link-wrap">
+                            <a class="header__link" href="">Контакты</a>
+                        </div>
+                    </div>
+                </div> 
+                <div class="header__col-3">
+                    <div class="header__phone-bl">
+                        <div class="header__phone-wrap">
+                            <a class="header__phone" href="tel:8 (87777) 5-32-62">8 (87777) 5-32-62</a>
+                        </div>
+                        <div class="header__phone-descript">Круглосуточно</div>
+                    </div>
+                    <div class="header__search">
+                        <a class="header__search-btn js--header-search-btn" href="">
+                            <svg class="header__search-icon" width="24" height="24" viewBox="0 0 24 24" fill="#ffffff"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path d="M23.7898 22.8L17.9575 16.9676C19.522 15.1689 20.4692 12.8222 20.4692 10.2572C20.4692 4.61107 15.8767 0.0239258 10.2359 0.0239258C4.58983 0.0239258 0.00268555 4.61639 0.00268555 10.2572C0.00268555 15.898 4.59515 20.4904 10.2359 20.4904C12.8009 20.4904 15.1477 19.5432 16.9464 17.9787L22.7787 23.8111C22.9171 23.9494 23.1033 24.0239 23.2843 24.0239C23.4652 24.0239 23.6515 23.9547 23.7898 23.8111C24.0665 23.5343 24.0665 23.0767 23.7898 22.8ZM1.43417 10.2572C1.43417 5.40397 5.38273 1.46073 10.2306 1.46073C15.0838 1.46073 19.0271 5.40929 19.0271 10.2572C19.0271 15.1051 15.0838 19.059 10.2306 19.059C5.38273 19.059 1.43417 15.1104 1.43417 10.2572Z" />
+                            </svg>
+                        </a>
+                    </div>
+                    <div class="header__bron">
+                        <a class="header__bron-btn js--hbron-btn" href="">Забронировать номер</a>
+                    </div>
+                    <div class="header__burger-wrap">
+                        <div class="burger burger--dark js--burger">
+                            <div class="burger__line burger__line-1"></div>
+                            <div class="burger__line burger__line-2"></div>
+                            <div class="burger__line burger__line-3"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header__search-block">
+            <div class="search-bl">
+                <div class="container search-bl__container">
+                    <div class="search-bl__effect-el">
+                        <div class="search-bl__el">
+                            <input class="search-bl__input" type="text" placeholder="Поиск">
+                            <button class="search-bl__btn">
+                                <img class="search-bl__btn-icon" src="img/search-bl-icon-01.svg" alt="">
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="header-bron-block">
+        <div class="hbron-form">
+            <div class="hbron-form__mobile-header">
+                <div class="hbron-form__title-wrap">
+                    <div class="hbron-form__title">Найти номер</div>
+                </div>
+                <div class="hbron-form__close hbron-form__close--2">
+                    <img class="hbron-form__close-icon" src="img/hbron-close-icon.svg" alt="">
+                </div>
+            </div>
+            <form class="hbron-form__el" action="">
+                <div class="hbron-form__box">
+                    <div class="hbron-form__close hbron-form__close--1">
+                        <img class="hbron-form__close-icon" src="img/hbron-close-icon.svg" alt="">
+                    </div>
+                    <div class="row hbron-form__row">
+
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 hbron-form__col-1 hbron-form__col-desktop">
+                            <div class="hbron-form__title-wrap">
+                                <div class="hbron-form__title">Найти номер</div>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 hbron-form__col-1">
+                            <div class="broniform__item hbron-form__item">
+                                <div class="broniform__item-h">База отдыха</div>
+                                <div class="broniform__item-inp">
+                                    <select class="gorn-select" name="" id="">
+                                        <option value="">Любая</option>
+                                        <option value="">База 1</option>
+                                        <option value="">База 2</option>
+                                        <option value="">База 3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 hbron-form__col-1">
+                            <div class="broniform__item hbron-form__item">
+                                <div class="broniform__item-h">База отдыха</div>
+                                <div class="broniform__item-inp">
+                                    <input class="gorn-input hbron-form__input gorn-datepicker" type="text" name="" id="" placeholder="Дата">
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 hbron-form__col-2">
+                            <div class="broniform__item hbron-form__item">
+                                <div class="broniform__item-h">Заезд</div>
+                                <div class="broniform__item-inp">
+                                    <select class="gorn-select" name="" id="">
+                                        <option value="">14.06.2019</option>
+                                        <option value="">15.06.2019</option>
+                                        <option value="">16.06.2019</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 hbron-form__col-2">
+                            <div class="broniform__item hbron-form__item">
+                                <div class="broniform__item-h">Заезд</div>
+                                <div class="broniform__item-inp">
+                                    <input class="gorn-input hbron-form__input gorn-datepicker" type="text" name="" id="" placeholder="Дата">
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 hbron-form__col-2">
+                            <div class="broniform__item hbron-form__item">
+                                <div class="broniform__item-h">Выезд</div>
+                                <div class="broniform__item-inp">
+                                    <select class="gorn-select" name="" id="">
+                                        <option value="">14.06.2019</option>
+                                        <option value="">15.06.2019</option>
+                                        <option value="">16.06.2019</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div> -->
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 hbron-form__col-2">
+                            <div class="broniform__item hbron-form__item">
+                                <div class="broniform__item-h">Выезд</div>
+                                <div class="broniform__item-inp">
+                                    <input class="gorn-input hbron-form__input gorn-datepicker" type="text" name="" id="" placeholder="Дата">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 hbron-form__col-2">
+                            <div class="broniform__item hbron-form__item">
+                                <div class="broniform__item-h">Взрослые</div>
+                                <div class="broniform__item-inp">
+                                    <select class="gorn-select" name="" id="">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 hbron-form__col-2">
+                            <div class="broniform__item hbron-form__item">
+                                <div class="broniform__item-h">Дети</div>
+                                <div class="broniform__item-inp">
+                                    <select class="gorn-select" name="" id="">
+                                        <option value="">1</option>
+                                        <option value="">2</option>
+                                        <option value="">3</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 hbron-form__col-1">
+                            <div class="hbron-form__btn-wrap">
+                                <div class="blue-btn broniform__btn hbron-form__btn">Найти номер</div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="mobile-menu">
+        <div class="mobile-menu__top">
+            <div class="mobile-menu__top-row">
+                <div class="header__logo-wrap mobile-menu__logo-wrap">
+                    <a class="header__logo" href="/">
+                        <img class="header__logo-img mobile-menu__logo" src="img/color-logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="mobile-menu__close-wrap">
+                    <div class="burger-close mobile-menu__close js--menu-close">
+                        <div class="burger-close__line-1"></div>
+                        <div class="burger-close__line-2"></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="mobile-menu__center">
+            <div class="mlinks">
+                <div class="mlinks__item">
+                    <div class="mob-accrd">
+                        <div class="mob-accrd__top">
+                            <div class="mob-accrd__name">Базы отдыха</div>
+                        </div>
+                        <div class="mob-accrd__bottom">
+                            <div class="mob-accrd__effect-wrap">
+                                <div class="mob-accrd__links">
+
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Турбаза «Горная»</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Туркомплекс «Горная деревня»</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Туркомплекс «Горное настроение»</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Туркомплекс «Горное вдохновение»</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link active" href="">Гостевой дом Мезмай</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Туркомплекс «Горное наслаждение»</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Турбаза «Лаго-Наки»</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Термальный источник «Водная Ривьера»</a>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="mlinks__item">
+                    <a class="mlinks__link" href="">Цены</a>
+                </div>
+                <div class="mlinks__item">
+                    <a class="mlinks__link" href="">Достопримечательности</a>
+                </div>
+                <div class="mlinks__item">
+                    <div class="mob-accrd">
+                        <div class="mob-accrd__top">
+                            <div class="mob-accrd__name">Услуги</div>
+                        </div>
+                        <div class="mob-accrd__bottom">
+                            <div class="mob-accrd__effect-wrap">
+                                <div class="mob-accrd__links">
+    
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Пункт 1</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Пункт 2</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Пункт 3</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Пункт 4</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Пункт 5</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Пункт 6</a>
+                                    </div>
+                                    <div class="mob-accrd__link-wrap">
+                                        <a class="mob-accrd__link" href="">Пункт 7</a>
+                                    </div>
+    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mlinks__item">
+                    <a class="mlinks__link" href="">Контакты</a>
+                </div>
+            </div>
+            <div class="m-search">
+                <form class="form" action="">
+                    <div class="m-search__el">
+                            <input class="m-search__input" type="text" placeholder="Поиск">
+                            <button class="m-search__btn">
+                                <!-- <img class="m-search__btn-icon m-search__btn-icon--1" src="img/mob-search-1.svg" alt=""> -->
+                                <!-- <img class="m-search__btn-icon m-search__btn-icon--2" src="img/mob-search-2.svg" alt=""> -->
+                                <img class="m-search__btn-icon" src="img/mob-search-2.svg" alt="">
+                            </button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+        <div class="mobile-menu__bottom">
+            <div class="mobile-menu__bottom-bl">
+                <div class="mobile-menu__phone-bl">
+                    <div class="footer__phone-wrap">
+                        <a class="footer__phone" href="tel:8 (87777) 5-32-62">8 (87777) 5-32-62</a>
+                    </div>
+                    <div class="footer__phone-descript">Круглосуточно</div>
+                </div>
+                <div class="mobile-menu__zakaz">
+                    <a class="footer__zakaz-btn mobile-menu__zakaz-btn js--hbron-btn" href="">Забронировать номер</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+</div>
+
+<div class="page-head page-head--ceny">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="page-head__breadcrumbs">
+                    <div class="breadcrumb bread-c">
+                        <a class="breadcrumb-item" href="#">Главная</a>
+                        <!-- <a class="breadcrumb-item" href="#">Базы отдыха</a> -->
+                        <a class="breadcrumb-item" href="#">Достопримечательности</a>
+                        <span class="breadcrumb-item active">Покорение вершин</span>
+                    </div>
+                </div>    
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="page-head__title">Покорение вершин</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="uslugi-item">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-12">
+                <div class="uslugi-item__spisok-baz rubrika">
+                    <div class="uslugi-item__spisok-title rubrika__title">Рубрика</div>
+                    <div class="rubrika__box">
+                        <div class="rubrika__item">
+                            <div class="where-slide__type color-1">Достопримечательности</div>
+                        </div>
+                        <div class="rubrika__item">
+                            <div class="where-slide__type color-2">Тур маршруты</div>
+                        </div>
+                        <div class="rubrika__item">
+                            <div class="where-slide__type color-3">Мероприятия</div>
+                        </div>
+
+                    </div>
+                    
+
+                </div>
+            </div>
+            <div class="col-xl-9 col-lg-9 col-md-12 col-sm-12 col-12 offset-0">
+                <div class="uslugi-item__spisok-baz uslugi-item__spisok-baz--long">
+                    <div class="uslugi-item__spisok-title">Теги</div>
+                    <div class="uslugi-item__spisok-row">
+
+                        <div class="uslugi-item__spisok-col">
+                            <div class="uslugi-item__link-wrap">
+                                <a class="uslugi-item__link" href="">#Горы</a>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="uslugi-item__bg-box">
+        <div class="uslugi-item__bg-mobile" style="background-image: url(img/uslugi-item-bg-mobile-002.jpg)"></div>
+        <div class="uslugi-item__bg" style="background-image: url(img/uslugi-item-bg-002.jpg)"></div>
+    </div>
+</div>
+<!-- <div class="uslugi-item"></div> -->
+
+
+<div class="uslugi-opisanie">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-10 col-lg-11 col-md-12 col-sm-12 col-12">
+                <div class="std__h-wrap uslugi-opisanie__title-wrap">
+                    <div class="std__h uslugi-opisanie__title">Aenean leo ligula, porttitor eu</div>
+                </div>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="uslugi-opisanie__textarea">
+                    <p>Вглядываясь в каждую складку скального массива Большого Тхача, невольно ловишь себя на мысли: сколько же сотен метров тянутся его отвесные стены? Небольшие островки сосен, чудом растущие на отвесных скалах, смотрятся, как черная щетина на небритом «лице» великана. Летняя засуха плавно перешла в осень. Под ногами хрустит ворох пожухлой листвы и выгоревшей под палящим солнцем травы.</p>
+                    <p>Четыре месяца в горах нет дождей. Реки обмелели до неузнаваемости. Форель с трудом пробивается по каменистым перекатам в верховья горных ручьев. Наш маршрут с покорением вершин Передового хребта г.Большой Тхач, Малый Тхач, Асбестная и г.Ачежбок начинается с поселка Сахрай. Приехав рейсовым автобусом и переночевав, утром отправились по лесной дороге к истокам реки Сахрай. Пройдя 12 км, вышли на слияние двух истоков- реки Большого и Малого Сахрая. Это место местные жители называют Тайвань. Перейдя на левый берег реки Сахрай, углубились по долине реки Большой Сахрай в узкое лесистое ущелье.</p>
+                    <p>Вокруг Большого Тхача идут интенсивные вырубки леса, и прямо по реке проложена тракторная дорога. Слева от нее склоны ущелья упираются в отвесные стены Большого Тхача, справа прижимает хребет Слесарный. Дорога приходит к крутым скатам ущелья и резко поднимается на склон горы Большой Тхач.</p>
+                    <p>Поднимаемся круто вверх по тракторной колее. Чтобы не заблудиться в ответвлениях следов трелевщиков леса, все время уходим влево и попадаем на большую поляну. От верхнего края ее идет хорошая конная тропа, которая приводит нас к домику на границе леса и альпийских склонов. Домик стоит на седловине небольшого хребта и назван туристами лагерь «Ветреный».</p>
+
+                    <blockquote>От него открывается изумительный вид на остроконечные скалы отдельно стоящего скального острова с западной стороны Большого Тхача. Он, как готический собор, стоит на возвышенности и окружен девственным сосновым и тиссовым лесом.</blockquote>
+
+
+                    <p>От лагеря <a href="">«Ветреный»</a> по тропинке выходим на перевал Тхач и оттуда начинаем подъем на вершину Большого Тхача. Подъем с перевала несложный и менее утомительный, чем с северной стороны. Сначала с небольшим подъемом траверсируем восточный склон и выходим на террасу, которая выводит на альпийские луга горы.</p>
+                    <p>Трингаляционный пункт, обозначающий вершину, виден издалека. Поднявшись на вершину Большого Тхача, осмотрели окрестные горы. Особенно впечатляет большой ледник горы Джемдрук. Среди ярко-рыжих и темно-зеленых красок осенних гор он притягивает взгляд своей белизной.</p>
+                    <p>Красавец Ачежбок отвесными скальными бастионами обращен к горе Большой Тхач, как бы создавая его зеркальное отражение. Представьте себе: два готических сказочных гигантских замка, похожих друг на друга, как две капли воды, стоят на одной плоскости, образуя единый чудесный ансамбль.</p>
+                    <p>Ачежбок с северной стороны, как и Большой Тхач, смотрится единым скальным бастионом, гигантской короной, неприступной средневековой крепостью. Перед ним, как передовой рубеж, в одну линию вытянулся скальный пояс из огромных каменных глыб. Обширные альпийские луга плавно спускаются в верховья реки Шиши. Их склоны изрезаны тропами выпасавшихся здесь коров. На склонах еще сохранились полуразрушенные пастушьи балаганы. Сплошной монолитной стеной Ачежбок смотрится только с северной стороны.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<div class="opisanie-obj opisanie-obj--uslugi-all">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="std__h-wrap seo-text__title-wrap">
+                    <div class="std__h seo-text__title">Фотогалерея</div>
+                </div>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+                <div class="opisanie-obj__slider-bl">
+                    <div class="opisanie-obj__slider">
+                        <div class="swiper-container opisanie-obj__swiper-container js--opobj-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="opisanie-obj-slide" style="background-image: url(img/opisanie-obj-01.jpg);"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="opisanie-obj-slide" style="background-image: url(img/opisanie-obj-01.jpg);"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="opisanie-obj-slide" style="background-image: url(img/opisanie-obj-01.jpg);"></div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="opisanie-obj-slide" style="background-image: url(img/opisanie-obj-01.jpg);"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="opisanie-obj__control">
+                        <div class="opisanie-obj__arr opisanie-obj__arr-prev js--opobj-prev">
+                            <img class="opisanie-obj__arr-icon" src="img/otzyvy-arr-prev.svg" alt="">
+                        </div>
+                        <div class="opisanie-obj__arr opisanie-obj__arr-next js--opobj-next">
+                            <img class="opisanie-obj__arr-icon" src="img/otzyvy-arr-next.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="footer">
+    <a class="footer__back-btn" href="">
+        <svg class="footer__back-btn-icon" width="70" height="70" viewBox="0 0 70 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle class="footer__back-btn-color-1" cx="35" cy="35" r="34" transform="rotate(-180 35 35)" stroke="#E0E0E0" stroke-width="2"/>
+            <path class="footer__back-btn-color-2" d="M34.9999 51.0315C35.4269 51.0315 35.7684 50.6899 35.7684 50.263L35.7684 22.3083L41.5053 28.0452C41.8081 28.3479 42.2894 28.3479 42.5921 28.0452C42.8949 27.7424 42.8949 27.2611 42.5921 26.9584L35.5433 19.9095C35.3958 19.762 35.194 19.6844 34.9999 19.6844C34.8058 19.6844 34.604 19.762 34.4565 19.9095L27.4077 26.9584C27.1049 27.2611 27.1049 27.7424 27.4077 28.0452C27.7104 28.3479 28.1917 28.3479 28.4945 28.0452L34.2314 22.3083L34.2314 50.263C34.2314 50.6899 34.5729 51.0315 34.9999 51.0315Z" fill="#BDBDBD"/>
+        </svg>
+    </a>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 footer__col-1">
+                <div class="footer__logo-wrap">
+                    <a class="footer__logo-link" href="">
+                        <img class="footer__logo" src="img/color-logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 footer__col-2">
+                <div class="footer__phone-bl">
+                    <div class="footer__phone-wrap">
+                        <a class="footer__phone" href="tel:8 (87777) 5-32-62">8 (87777) 5-32-62</a>
+                    </div>
+                    <div class="footer__phone-descript">Круглосуточно</div>
+                </div>
+            </div>
+            <div class="col-xl-3 offset-xl-1 col-lg-4 offset-lg-0 col-md-6 col-sm-12 col-12 offset-0 footer__col-3">
+                <div class="footer__zakaz">
+                    <a class="footer__zakaz-btn" href="">Забронировать номер</a>
+                </div>
+            </div>
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 footer__col-4">
+                <div class="footer__hr"></div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 footer__col-5">
+                <div class="footer__pages">
+                    <div class="footer__pages-h-wrap">
+                        <a class="footer__pages-h" href="">Базы отдыха</a>
+                    </div>
+                    <div class="footer__pages-links">
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Турбаза «Горная»</a>
+                        </div>
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Туркомплекс «Горная деревня»</a>
+                        </div>
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Туркомплекс «Горное настроение»</a>
+                        </div>
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Туркомплекс «Горное вдохновение»</a>
+                        </div>
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Гостевой дом Мезмай</a>
+                        </div>
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Туркомплекс «Горное наслаждение»</a>
+                        </div>
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Турбаза «Лаго-Наки»</a>
+                        </div>
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Термальный источник «Водная Ривьера»</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 footer__col-6">
+
+                <div class="footer__pages">
+                    <div class="footer__pages-h-wrap">
+                        <a class="footer__pages-h" href="">Услуги</a>
+                    </div>
+                    <div class="footer__pages-links">
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Услуги частным клиентам</a>
+                        </div>
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Услуги корпоративным клиентам</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer__pages">
+                    <div class="footer__pages-h-wrap">
+                        <a class="footer__pages-h" href="">Достопримечательности</a>
+                    </div>
+                    <div class="footer__pages-links">
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Достопримечательности</a>
+                        </div>
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Тур маршруты</a>
+                        </div>
+                        <div class="footer__link-wrap">
+                            <a class="footer__link" href="">Мероприятия</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-xl-3 offset-xl-1 col-lg-4 offset-lg-0 col-md-12 col-sm-12 col-12 offset-0 footer__col-7">
+                <div class="footer__sng-links-bl">
+                    <div class="footer__sng-link-wrap">
+                        <a class="footer__sng-link" href="">Цены</a>
+                    </div>
+                    <div class="footer__sng-link-wrap">
+                        <a class="footer__sng-link" href="">Контакты</a>
+                    </div>
+                </div>
+
+                <div class="footer__social">
+                    <div class="soc-links">
+                        <div class="soc-links__item-wrap">
+                            <a class="soc-links__item" href="">
+                                <div class="soc-links__icon-wrap">
+                                    <svg class="soc-links__icon" width="22" height="22" viewBox="0 0 23 23" fill="#24A3FF" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M16.9992 0.90155L14.1463 0.896973C10.9411 0.896973 8.86983 3.02206 8.86983 6.3112V8.80752H6.00136C5.75349 8.80752 5.55276 9.00848 5.55276 9.25634V12.8732C5.55276 13.1211 5.75372 13.3218 6.00136 13.3218H8.86983V22.4484C8.86983 22.6963 9.07055 22.897 9.31842 22.897H13.061C13.3088 22.897 13.5095 22.696 13.5095 22.4484V13.3218H16.8635C17.1113 13.3218 17.312 13.1211 17.312 12.8732L17.3134 9.25634C17.3134 9.13733 17.266 9.02335 17.182 8.93913C17.098 8.8549 16.9836 8.80752 16.8646 8.80752H13.5095V6.69136C13.5095 5.67425 13.7519 5.15791 15.0769 5.15791L16.9987 5.15722C17.2464 5.15722 17.4471 4.95627 17.4471 4.70863V1.35014C17.4471 1.10273 17.2466 0.902008 16.9992 0.90155Z"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-links__item-wrap">
+                            <a class="soc-links__item" href="">
+                                <div class="soc-links__icon-wrap">
+                                    <svg class="soc-links__icon" width="22" height="22" viewBox="0 0 23 23" fill="#24A3FF" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd" clip-rule="evenodd" d="M19.4344 13.5882C20.1642 14.3006 20.9344 14.971 21.5889 15.7553C21.8781 16.1039 22.1518 16.4636 22.3612 16.8681C22.6579 17.4431 22.3892 18.0758 21.8736 18.1102L18.6686 18.1087C17.8419 18.1773 17.1825 17.8445 16.628 17.2794C16.1843 16.8274 15.7734 16.3463 15.3467 15.8791C15.1717 15.6881 14.9887 15.5084 14.7699 15.3664C14.3324 15.0824 13.9526 15.1693 13.7026 15.6257C13.4479 16.0898 13.3902 16.6037 13.3652 17.121C13.3308 17.8757 13.1027 18.0741 12.3446 18.1087C10.7245 18.1851 9.18687 17.9399 7.75849 17.1226C6.49918 16.4021 5.52264 15.385 4.67267 14.2334C3.01775 11.9911 1.75042 9.52723 0.611382 6.99429C0.354995 6.42362 0.542497 6.11728 1.17215 6.10644C2.21772 6.08613 3.26315 6.08757 4.30995 6.10499C4.7349 6.11121 5.01623 6.35495 5.18031 6.75641C5.74599 8.14735 6.43817 9.4707 7.30701 10.6973C7.53839 11.0239 7.77432 11.3505 8.11029 11.5804C8.48197 11.8349 8.76496 11.7505 8.93981 11.3365C9.05076 11.0739 9.09934 10.7912 9.12435 10.51C9.20718 9.54263 9.2181 8.57693 9.07281 7.61296C8.98361 7.01135 8.64475 6.62189 8.04444 6.50804C7.73811 6.45 7.78372 6.33601 7.93204 6.16116C8.18966 5.85959 8.43195 5.67188 8.91495 5.67188H12.5371C13.1073 5.78442 13.234 6.04059 13.3121 6.61437L13.3152 10.6379C13.3089 10.86 13.4261 11.5191 13.8262 11.6662C14.1464 11.7708 14.3575 11.5146 14.5496 11.3116C15.4169 10.3912 16.0358 9.30337 16.5888 8.17698C16.8342 7.6817 17.0452 7.16734 17.2497 6.65341C17.4012 6.27204 17.6389 6.08439 18.0685 6.09271L21.5546 6.09581C21.658 6.09581 21.7626 6.09733 21.8627 6.11446C22.4501 6.21458 22.6111 6.46728 22.4297 7.04091C22.1438 7.94091 21.5876 8.69092 21.0437 9.44439C20.4623 10.2488 19.8406 11.0257 19.264 11.8349C18.7344 12.5739 18.7764 12.9464 19.4344 13.5882Z"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-links__item-wrap">
+                            <a class="soc-links__item" href="">
+                                <div class="soc-links__icon-wrap">
+                                    <svg class="soc-links__icon" width="22" height="22" viewBox="0 0 23 23" fill="#24A3FF" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M15.6245 0.896973H7.37445C3.57808 0.896973 0.499451 3.9756 0.499451 7.77197V16.022C0.499451 19.8183 3.57808 22.897 7.37445 22.897H15.6245C19.4208 22.897 22.4995 19.8183 22.4995 16.022V7.77197C22.4995 3.9756 19.4208 0.896973 15.6245 0.896973ZM20.437 16.022C20.437 18.6757 18.2782 20.8345 15.6245 20.8345H7.37445C4.7207 20.8345 2.56195 18.6757 2.56195 16.022V7.77197C2.56195 5.11822 4.7207 2.95947 7.37445 2.95947H15.6245C18.2782 2.95947 20.437 5.11822 20.437 7.77197V16.022Z"/>
+                                        <path d="M11.4995 6.39697C8.46208 6.39697 5.99945 8.8596 5.99945 11.897C5.99945 14.9343 8.46208 17.397 11.4995 17.397C14.5368 17.397 16.9995 14.9343 16.9995 11.897C16.9995 8.8596 14.5368 6.39697 11.4995 6.39697ZM11.4995 15.3345C9.6047 15.3345 8.06195 13.7917 8.06195 11.897C8.06195 10.0008 9.6047 8.45947 11.4995 8.45947C13.3942 8.45947 14.937 10.0008 14.937 11.897C14.937 13.7917 13.3942 15.3345 11.4995 15.3345Z"/>
+                                        <path d="M17.412 6.71745C17.8168 6.71745 18.1449 6.38933 18.1449 5.98458C18.1449 5.57983 17.8168 5.25171 17.412 5.25171C17.0073 5.25171 16.6792 5.57983 16.6792 5.98458C16.6792 6.38933 17.0073 6.71745 17.412 6.71745Z"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="soc-links__item-wrap">
+                            <a class="soc-links__item" href="">
+                                <div class="soc-links__icon-wrap">
+                                    <svg class="soc-links__icon" width="22" height="22" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M10.4173 16.3932C8.71181 16.2153 7.17404 15.7953 5.85746 14.7656C5.6941 14.6375 5.52544 14.514 5.37636 14.3709C4.8001 13.8174 4.74203 13.1836 5.19802 12.5303C5.58811 11.9714 6.24294 11.8218 6.92358 12.1428C7.05537 12.205 7.18095 12.2827 7.30122 12.3661C9.75489 14.052 13.1256 14.0985 15.5885 12.4419C15.8325 12.2548 16.0933 12.1022 16.3956 12.0244C16.9834 11.8734 17.5315 12.0893 17.847 12.6036C18.2073 13.1909 18.2027 13.7642 17.7587 14.2202C17.0776 14.9193 16.2585 15.425 15.3484 15.778C14.4878 16.1116 13.5452 16.2796 12.6122 16.3911C12.753 16.5444 12.8194 16.6197 12.9074 16.7082C14.1742 17.981 15.4465 19.2485 16.7092 20.5252C17.1394 20.9602 17.2292 21.4996 16.9924 22.0056C16.7334 22.5586 16.1537 22.9224 15.5852 22.8835C15.2251 22.8586 14.9442 22.6793 14.6947 22.4279C13.7387 21.466 12.7648 20.5217 11.8281 19.5416C11.5556 19.2565 11.4245 19.3105 11.1839 19.5579C10.2222 20.548 9.24475 21.5229 8.26158 22.4922C7.82011 22.9275 7.29477 23.0058 6.7828 22.7572C6.23856 22.4934 5.89225 21.9379 5.91898 21.3796C5.93741 21.0019 6.12312 20.7134 6.38234 20.4547C7.63601 19.2029 8.88623 17.9478 10.1369 16.6939C10.2196 16.6105 10.2968 16.522 10.4173 16.3932Z" fill="#24A3FF"/>
+                                        <path d="M11.4562 12.0326C8.4136 12.0222 5.91869 9.4999 5.93643 6.45247C5.95395 3.37139 8.45046 0.888469 11.523 0.896995C14.6018 0.905289 17.073 3.42393 17.0575 6.53703C17.0419 9.57824 14.5297 12.0432 11.4562 12.0326ZM14.2214 6.45984C14.2161 4.94672 13.011 3.74213 11.5009 3.74074C9.9781 3.73913 8.76221 4.96562 8.77396 6.49256C8.78525 7.99992 10.0007 9.19599 11.5149 9.19046C13.0246 9.18516 14.2264 7.97273 14.2214 6.45984Z" fill="#24A3FF"/>
+                                    </svg>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer__privacy-wrap">
+                    <a class="footer__privacy" href="" target="_blank">Политика конфиденциальности</a>
+                </div>
+                <div class="footer__copyright-wrap">
+                    <div class="footer__copyright">© ООО «Хаджохская турбаза Горная», 2019</div>
+                </div>
+                <div class="footer__created-wrap">
+                    <a class="footer__created" href="">
+                        <span>Сделано в</span>
+                        <img src="img/copyright-dark.svg" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="abc" style="background-color: #3300aa;background-color: #FDF76A; height: 30px;"></div>
+<div class="abc" style="background-color: #3300aa;background-color: rgba(255, 228, 196, 1); height: 50px;"></div>
+
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#okb-modal-11">
+    модалка заказа
+</button>
+<div class="modal gorn-modal fade" id="okb-modal-11" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true" style="display: none;">
+    <div class="modal-dialog gorn-modal__modal-dialog" role="document">
+        <div class="modal-content gorn-modal__modal-content">
+            <div class="modal-body gorn-modal__body">
+                <div class="gorn-modal__close" data-dismiss="modal" aria-label="Close">
+                    <img class="gorn-modal__close-img" src="img/hbron-close-icon.svg" alt="">
+                </div>
+                <div class="gorn-modal__box">
+                    <div class="gorn-modal__h-wrap">
+                        <div class="std__sm-h gorn-modal__h">Бронирование номера</div>
+                    </div>
+                    <form class="gorn-modal__form-el" action="">
+                        <div class="row gorn-modal__row">
+                            <!-- <div class="gorn-modal__col-2 gorn-modal__col-mobile-5">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">Заезд</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <select class="gorn-select gorn-modal--modal" name="" id="">
+                                            <option value="">01.08.2019</option>
+                                            <option value="">15.06.2019</option>
+                                            <option value="">16.06.2019</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-2 gorn-modal__col-mobile-5">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">Выезд</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <select class="gorn-select gorn-modal--modal" name="" id="">
+                                            <option value="">04.08.2019</option>
+                                            <option value="">15.06.2019</option>
+                                            <option value="">16.06.2019</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div> -->
+                            <div class="gorn-modal__col-2 gorn-modal__col-mobile-5">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">Заезд</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <!-- <select class="gorn-select gorn-modal--modal" name="" id="">
+                                            <option value="">01.08.2019</option>
+                                            <option value="">15.06.2019</option>
+                                            <option value="">16.06.2019</option>
+                                        </select> -->
+                                        <input class="gorn-input gorn-modal__input gorn-datepicker" type="text" name="" id="" placeholder="Дата">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-2 gorn-modal__col-mobile-5">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">Выезд</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <input class="gorn-input gorn-modal__input gorn-datepicker" type="text" name="" id="" placeholder="Дата">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-3 gorn-modal__col-mobile-5">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">Взрослые</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <select class="gorn-select gorn-modal--modal" name="" id="">
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">1</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-3 gorn-modal__col-mobile-5">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">Дети</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <select class="gorn-select gorn-modal--modal" name="" id="">
+                                            <option value="">0</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-4 gorn-modal__col-mobile-10">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">База отдыха</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <select class="gorn-select gorn-modal--modal" name="" id="">
+                                            <option value="">Туркомплекс "Горная Деревня"</option>
+                                            <option value="">Туркомплекс "Горная Деревня 2"</option>
+                                            <option value="">Туркомплекс "Горная Деревня 3"</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-6 gorn-modal__col-mobile-10">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">Номер</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <select class="gorn-select gorn-modal--modal" name="" id="">
+                                            <option value="">2-местный номер</option>
+                                            <option value="">1-местный номер</option>
+                                            <option value="">3-местный номер</option>
+                                            <option value="">4-местный номер</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-10 gorn-modal__col-mobile-10">
+                                <div class="gorn-modal__hr-wrap gorn-modal__hr-wrap--1">
+                                    <div class="gorn-modal__hr"></div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-6 gorn-modal__col-mobile-10">
+                                <div class="gorn-modal__text-wrap">
+                                    <div class="gorn-modal__text">Введите ваши контактные данные. Наш менеджер свяжется с вами в ближайшее время и поможет вам выбрать или забронировать номер</div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-10 gorn-modal__col-mobile-10"></div>
+                            <div class="gorn-modal__col-4 gorn-modal__col-mobile-10">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">Ваше имя</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <input class="gorn-input gorn-modal__input" type="text" name="" id="" placeholder="ФИО">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-3 gorn-modal__col-mobile-10">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">E-mail</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <input class="gorn-input gorn-modal__input" type="text" name="" id="" placeholder="mail@mail.com">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-3 gorn-modal__col-mobile-10">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">Телефон</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <input class="gorn-input gorn-modal__input" type="text" name="" id="" placeholder="+7">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="gorn-modal__col-10 gorn-modal__col-mobile-10">
+                                <div class="gorn-modal__item">
+                                    <div class="gorn-modal__item-h">Комментарий</div>
+                                    <div class="gorn-modal__item-inp">
+                                        <input class="gorn-input gorn-modal__input" type="text" name="" id="" placeholder="Напишите свой комментарий">
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- <div class="gorn-modal__col-2"></div>
+                            <div class="gorn-modal__col-3"></div>
+                            <div class="gorn-modal__col-4"></div>
+                            <div class="gorn-modal__col-10"></div> -->
+                        </div>
+
+                        <div class="gorn-modal__itog-wrap">
+                            <div class="gorn-itog gorn-modal__itog">
+                                <div class="gorn-itog__row">
+                                    <div class="gorn-itog__col-1">
+                                        <div class="gorn-itog__name-bl">
+                                            <div class="gorn-itog__type-wrap">
+                                                <div class="gorn-itog__type">2-местный номер</div>
+                                            </div>
+                                            <div class="gorn-itog__name-wrap">
+                                                <div class="gorn-itog__name">Туркомплекс "Горная Деревня"</div>
+                                            </div>
+                                            <div class="gorn-itog__people-wrap">
+                                                <div class="gorn-itog__people">
+                                                    <div class="gorn-itog__people-item">
+                                                        <img class="gorn-itog__people-icon" src="img/nomer-people-num-dark.svg" alt="">
+                                                    </div>
+                                                    <div class="gorn-itog__people-item">
+                                                        <img class="gorn-itog__people-icon" src="img/nomer-people-num-dark.svg" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="gorn-itog__col-2">
+                                        <div class="gorn-itog__time-bl">
+                                            <div class="gorn-itog__time">01.08.2019 - 04.08.2019</div>
+                                            <div class="gorn-itog__time-day">(3 ночи)</div>
+                                        </div>
+                                    </div>
+                                    <div class="gorn-itog__col-3">
+                                        <div class="gorn-itog__price-bl">
+                                            <div class="gorn-itog__price-day">
+                                                <div class="gorn-itog__price-num">3 000</div>
+                                                <div class="gorn-itog__price-text">руб/сутки</div>
+                                            </div>
+                                            <div class="gorn-itog__price-period">
+                                                <div class="gorn-itog__price-num">9 000</div>
+                                                <div class="gorn-itog__price-text">руб/весь период</div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="gorn-modal__privacy-wrap">
+                            <div class="gorn-modal__privacy">Нажав на кнопку, я даю <a href="" target="_blank">согласие на обработку персональных данных</a></div>
+                        </div>
+                        <div class="gorn-modal__btn-wrap">
+                            <button class="blue-btn gorn-modal__btn">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="abc" style="background-color: #3300aa;background-color: rgba(255, 228, 196, 1); height: 50px;"></div>
+<!-- <div>Тест</div> -->
+
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/tether.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/modernizr-custom.js"></script>
+<script type="text/javascript" src="swiper/swiper.min.js"></script>
+<!-- <script type="text/javascript" src="js/min/skrollr.min.js"></script> -->
+<!-- <script type="text/javascript" src="textfield/mdlComponentHandler.js"></script> -->
+<!-- <script type="text/javascript" src="textfield/textfield.js"></script> -->
+<!-- <script type="text/javascript" src="js/smooth-scrollbar.js"></script> -->
+<script type="text/javascript" src="fancybox/jquery.fancybox.min.js"></script>
+
+
+<script type="text/javascript" src="js/min/script.min.js"></script>
+<script type="text/javascript" src="js/min/dg.min.js"></script>
+
+<script type="text/javascript" src="jqueryUI/jquery-ui.js"></script>
+<script type="text/javascript" src="jqueryUI/datepicker-ru.js"></script>
+<script type="text/javascript">
+    if ($('.gorn-datepicker').length) {
+        $( ".gorn-datepicker" ).datepicker();
+        $.datepicker.regional['ru'];        
+    }
+</script>
+
+
+
+</body>
+</html>
